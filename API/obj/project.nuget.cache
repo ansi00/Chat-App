@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UiTc7tx9wlw=",
+  "dgSpecHash": "En3P+664zf0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp.DESKTOP-92E6V0M\\Desktop\\Angular Practise and Projects\\Chat App\\Api\\API.csproj",
+  "projectFilePath": "C:\\Users\\Hp.DESKTOP-92E6V0M\\Desktop\\Angular Practise and Projects\\Chat App\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp.DESKTOP-92E6V0M\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Hp.DESKTOP-92E6V0M\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",

@@ -21,7 +21,8 @@ public class Startup
     });
     services.AddEndpointsApiExplorer();
     services.AddSwaggerGen();
-    services.AddControllers(); // Add this line
+    services.AddControllers(); 
+    services.AddCors();
 }
 
 
@@ -36,10 +37,11 @@ public class Startup
 
     app.UseHttpsRedirection();
     app.UseRouting();
-    
+    app.UseCors(x=> x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+
     app.UseEndpoints(endpoints =>
     {
-        endpoints.MapControllers(); // Map the controllers
+        endpoints.MapControllers(); 
     });
 }
 
